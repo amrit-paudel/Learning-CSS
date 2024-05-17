@@ -1,0 +1,12 @@
+
+I call this tutorials based learning
+
+Well lets be honest you are gonna forget the properties
+
+so make a folder like css / css tutorials or something
+
+than make each folder for css properties
+
+put one word fileexplaining important notes
+
+put html and css files made on those properties
