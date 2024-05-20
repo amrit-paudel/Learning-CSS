@@ -1,0 +1,17 @@
+h1{
+    border:solid blue 5px; /* it is the shorthand property for the whole border  */
+   
+}
+p{
+    border-top: dotted red 2px;
+    border-right: solid blue 2px;
+    border-bottom: dashed green 2px;
+    border-left: double yellowgreen 2px;
+    border-bottom-left-radius: 40px;
+}
+h2{
+    border:solid khaki 20px;
+    border-image-source: url("nature.jpg");
+    border-image-outset: 10px;
+    border-image-repeat: repeat;
+    border-image-slice: 10%; /* exprole other properties also , better to use this as a shorthand property */

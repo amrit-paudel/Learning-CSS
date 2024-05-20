@@ -1,0 +1,25 @@
+/* various display properties and their uses */
+
+.myspan{
+    background-color: red;
+    visibility: hidden;
+}
+.para1{
+    display:inline; /* paragraph is by default a block type of display but here we were able to change it to inline */
+    background-color: red;
+    /* visibility:hidden is same as display:none */
+    
+    
+}
+.myhead{
+    width:100px;
+    border:solid red 1px;
+    max-width:500px;
+    font-size:10px;
+}
+.para{
+    background-color: pink;
+    width:150px;
+    max-width:200px;
+
+}

@@ -1,0 +1,9 @@
+p{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 1s;
+}
+p:hover{
+    width: 300px;
+}

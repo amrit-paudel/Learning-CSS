@@ -1,0 +1,32 @@
+/* table properties */
+ /* look clearly here we use grouping of the css selector */
+ td,table{
+    border:solid blue 2px;
+    border-collapse:collapse;
+    border-spacing:0px ;
+    caption-side: top;
+    empty-cells:hide;
+    padding: 0px;
+    table-layout:fixed;
+    text-align: center;
+    /*text-overflow: ellipsis;*/
+    overflow: auto;
+    padding:0px;
+    
+    
+     
+}
+th{
+   border:solid blue;
+   height:50px;
+   width:100px;
+   vertical-align: middle;
+   border-bottom: solid red 2px; /* sabai kura depth maa jannu pardainaa kam gardai jada siknae hoo natraa vaiyenna 
+   padhdai gayenxaa ani birsaidai gayenxaa */
+   color:yellow;
+  /* background-color: blueviolet;*/
+   background-image: url("nature.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   
+}

@@ -1,0 +1,13 @@
+p{
+    border:solid black ;
+    background-color: khaki;
+    
+    cursor: alias;
+    outline: solid red 5px;
+    outline-offset: 0px;
+    columns: auto 3;
+    column-rule: solid blue 3px;
+    column-gap: 50px; /* setting this to 0px will create no gap between columns and if we don't use column rule 
+    there seems like no any columns  */
+
+}

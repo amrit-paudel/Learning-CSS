@@ -1,0 +1,9 @@
+.mydiv{
+    border:solid blue 1px;
+    background-color: khaki;
+    width:50%;
+    height:10%;
+    overflow:auto; /* we may also use other properties like visible(default) , hidden , scroll ,auto */
+    position: relative;
+    top: 200px;
+}

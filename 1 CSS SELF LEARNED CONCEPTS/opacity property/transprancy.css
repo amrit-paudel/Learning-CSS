@@ -1,0 +1,8 @@
+/* use of the opacity property to create more stylish image background */
+h1{
+    background-color: khaki;
+    /*opacity: 0.5;*/ /* here not only the background but also the text gets affeccted in other words the child */
+    /* so we use RGBA color values property of background */
+    background: rgba(76, 175, 80, 0.3) 
+    /* we may easily search for the RGBA VALUES*/
+}

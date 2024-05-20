@@ -1,0 +1,24 @@
+/* margin iiand padding in css */
+h1{
+    background-color: pink;
+    
+}
+p{
+    color:blueviolet;
+    background-color: khaki;
+    border:solid red 2px;
+    margin-left: 20px;
+    margin-top: 0px; /* on doung this you may be wondering that <p> tag doesnot coincide with the upper <h1> tag 
+    it is because oon the upper one there is no  margin
+    so there is margin:auto so as the bottom margin , so <p> and <h1> tag does not stick there */
+    
+}
+p{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* we may also use the shorthand proerty of padding 
+    we may also decrease the size of rhe paragraph box
+    we may also use the text-align property ans make that look a bit more stylish */
+}

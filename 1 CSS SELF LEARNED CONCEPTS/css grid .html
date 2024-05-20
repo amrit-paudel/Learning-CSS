@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title> A title of webpage </title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .griditem{
+        background-color: pink;
+        text-align: center;
+        vertical-align: middle;
+        border: solid blue;
+      }
+      .gridcontainer{
+        background-color: khaki;
+        border: solid blue;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 25vh 25vh; /* after the aobve two properties the rows are managed and comes auto so we can cet their height.*/
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="gridcontainer">
+      <div class="griditem">first</div>
+      <div class="griditem">second</div>
+      <div class="griditem">third</div>
+      <div class="griditem">fourth</div>
+      <div class="griditem">fifth</div>
+      <div class="griditem">sixth</div>
+    </div>
+  </body>
+</html>

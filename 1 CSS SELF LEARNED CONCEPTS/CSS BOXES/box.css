@@ -1,0 +1,14 @@
+#divid{
+    background-color: khaki;
+    width:100px;
+    height:100px;
+}
+.divclass{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    padding:20px;
+    border:5px solid blue;
+    box-sizing: border-box; /* if there is not box-size:border-box property than there will be difference in between above two boxes.*/
+
+}

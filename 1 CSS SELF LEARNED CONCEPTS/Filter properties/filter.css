@@ -1,0 +1,9 @@
+img{
+    filter:grayscale(10%);
+    filter:brightness(30%);
+    filter:contrast(40%);
+    filter:hue-rotate(60deg);
+    filter:saturate(30%);
+    /* there are also other many filter properties see them */
+
+}

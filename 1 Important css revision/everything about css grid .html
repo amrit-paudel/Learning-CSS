@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .grid div{
+      background-color: khaki;
+      padding: 10px;
+      border: solid blue;
+
+    }
+    .grid{
+      display: grid;
+      grid-template-areas: 
+      "head main menu menu"
+      "head main body body"
+      "head main body body"
+      "head foot body body"
+      ;
+
+      /* here we are free to create any numbers of the rows and columns */
+
+      grid-template-columns: 10% auto auto 10%;  /* here we just set the width of the columns that are already created above*/
+
+      grid-template-rows: 10% auto auto 10%; /* here we just set the height of the rows that are already created above*/
+    }
+    
+    .item1{grid-area: head;}
+    .item2{grid-area: menu;}
+    .item3{grid-area: main;}
+    .item4{grid-area: body;}
+    .item5{grid-area: foot;}
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="item1">Header</div>
+    <div class="item2">Menu</div>
+    <div class="item3">Main</div>
+    <div class="item4">Body</div>
+    <div class="item5">Footer</div>
+  </div>
+</body>
+</html>
+
+
+

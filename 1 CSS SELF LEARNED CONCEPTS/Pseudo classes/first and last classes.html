@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> webpage title </title>
+        <style>
+            p:first-child{color:blue}
+           div p:last-child{color:red} /* now it's consied only inside the div ot to whole body */ 
+             body div p{font-size:30px;} /* so by psewdo classes it becomes quite easier otherwise we need to acess deeper like this */
+        </style>
+    </head>
+    <body> 
+        <div>
+            <p> 1st paragraph of 1st div </p>
+            <p> 2nd paragraph of the 1st div</p>
+            <p> last paragraph of the 1s div</p>
+        </div>
+        <div>
+            <p> 1st paragraph of 2nd div </p>
+            <p> 2nd paragraph of the 2nd div</p>
+            <p> last paragraph of the 2nd  div</p>
+        </div>
+        <p> last paragraph of the body tag </p>
+    </body>
+</html>

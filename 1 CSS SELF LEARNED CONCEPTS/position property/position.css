@@ -1,0 +1,48 @@
+/*#head{
+    color:blue;
+    background-color: khaki;
+    border:solid 2px blue;
+    border-radius: 5px;
+    width:120px;
+    font-size:15px;
+    /* Now using the position property static */
+   /* position:fixed;
+    right:0px;
+}*/
+/*#head{
+    color:blue;
+    background-color: khaki;
+    border:solid 2px blue;
+    border-radius: 5px;
+    width:120px;
+    font-size:15px;
+    /* Now using the position property relative  */
+    /*position:relative;
+    top:5px;
+}*/
+/*div{
+    position:relative;
+    top:0px;
+    background-color:red;
+    border:solid blue 5px;
+    width:350px;
+    
+}
+.head{
+    color:blue;
+    background-color: khaki;
+    border:solid 2px blue;
+    border-radius: 5px;
+    width:120px;
+    font-size:15px;
+    /* Now using the position property absolute */
+    /*position:absolute; /* now it will see it's ancestors position and set itself as per that */
+    /*top:5px;
+}*/
+
+/* position sticky*/
+#head{
+    position:sticky;
+    top:50px; /* here head remains relative at first but when it crosses 50 pixels counted from the viewport than it becomes fixed.*/
+    color:blue;
+}

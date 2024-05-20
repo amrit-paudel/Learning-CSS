@@ -1,0 +1,13 @@
+/* content property along with some pseudo elements */
+p::before{
+    content:"just a added string by css ";
+
+}
+/* some pseudo elements */
+p::first-line{
+    background-color: khaki;
+}
+h1::first-letter{  /* this type of stylling is often seen in many websites it is really important.*/
+    font-size: 60px;
+    color:blue;
+}

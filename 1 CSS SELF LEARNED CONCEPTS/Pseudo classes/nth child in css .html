@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title> webpage title </title>
+        <style>
+            /* below are the various forms of using the nth-child() property */
+            li:nth-child(5){color:red;font-size:20px;}
+            li:nth-child(2),li:nth-child(5),li:nth-child(8){color:blue;}
+            li:nth-child(even){font-size: 10px;}
+            li:nth-child(2n+1){font-family: cursive;} /* here the value of n always starts from 0 and increases , we may us eany type of formulas we want . */
+        </style>
+    </head>
+    <body> 
+        <ul>
+            <li> 1 item </li>
+            <li> 2 item </li>
+            <li> 3 item </li>
+            <li> 4 item </li>
+            <li> 5 item </li>
+            <li> 6 item </li>
+            <li> 7 item </li>
+            <li> 8 item </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+a:visited { /* as per this pseudo class this all properties is applied only if the link in visited at least once */
+    background-color: #f44336;
+    color:black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }

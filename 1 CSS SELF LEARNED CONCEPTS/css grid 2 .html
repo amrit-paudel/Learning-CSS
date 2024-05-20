@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title> A title of webpage </title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .griditem{
+        background-color: pink;
+        text-align: center;
+        vertical-align: middle;
+        border: solid blue;
+        /*width: 10%;*/ /* it changes the width odf each grid items and make them appear seperate like the small boxes */
+        /*margin: 8px;*/ /* without settng width of we set margin to each grid items also than also each items will appear seperate*/
+        /* on either of above both rows and columns won't collapse */
+
+       
+      }
+      .griditem1{
+        grid-area: myarea;
+      }
+      .gridcontainer{
+        height: 50vh;
+        background-color: khaki;
+        border: solid red;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 10vh 10vh; /* after the aobve two properties the rows are managed and comes auto so we can cet their height.*/
+        /*row-gap: 10px;
+        column-gap: 10px;*/    /* on above two properties also rows and columns won't collapse*/
+        grid-template-areas: 'myarea myarea...''myarea myarea...';
+        
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <div class="gridcontainer">
+      <div class="griditem1" >first</div>
+      <div class="griditem" >second</div>
+      <div class="griditem">third</div>
+      <div class="griditem">fourth</div>
+      <div class="griditem">fifth</div>
+      <div class="griditem">sixth</div>
+      <div class="griditem">seventh</div>
+      <div class="griditem">eight</div>
+    </div>
+  </body>
+</html>
