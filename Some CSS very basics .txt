@@ -1,0 +1,96 @@
+
+A display: block level element like div,h1,h2,p always takes width 100%
+but height is auto; meaning the height is just to fit the content
+
+A display:inline-block level element like span takes width:auto;
+
+We can always have any display through CSS
+
+Anything width or height that is in % is applied relative to 
+it's parent box, like, width:20%; 20% of what ? parent container
+
+In CSS by default height is auto
+So we generally don't mess up with height
+since auto height is best, since it grows and srink relative to content
+
+Just type font- ( font and hyphen )
+and text- ( text and hyphen )
+and we will come up with all the necessary css properties for our text
+
+You write only background- 
+and all the background related properties comes in
+same for all other properties
+
+So in a sense we have to only remember few things (THIS ONE IS REALLY POWERFUL AND MOTIVATING)
+like 
+font-
+text-
+background-
+
+If we ever wanna place background image and cover our entire background
+than 
+1) Must use high quality image
+2) background-size:cover;
+3) by default background-position is left, so it going to cover everything expanding from 
+left
+So if we place background-position:center;
+while we do background-size:cover;
+it's going to expand nicely from center to right, left, top and bottom
+
+
+
+Also 
+box-sizing:border-box;
+don't need to understand this just do
+*{
+    padding:0;
+    margin:0; 
+}
+
+*::before , *::after , * {  
+        box-sizing:border-box;
+  }
+
+
+On doing display:flex;
+all the items inide container becomes flex items whom we can arrange
+along row or column or row reverse or column reverse
+whom we can grow or shrink or wrap/nowrap
+
+
+flex-direstion:row 
+or
+flex-flow:row;
+it is read as: main axis will be along row 
+and the items always follows the main axis
+
+
+In css By default the block level element has width:100%; of the parent container
+and height auto, meaning the height is adjusted as per content
+
+But in case of flexbox the height of flex items no longer becomes auto
+due to a default property, align-items:stretch;
+
+Leaving align content and justify items for now
+
+we apply flex-shrink, property to each flex items so the flex-wrap, property applies to
+the flexbox container may interfere with the flex-shrink property applied to the flex-items
+
+while applying flex-grow, pay attention to min-width
+since browser ko width decrease gardaa flex-grow is same as flex-shrink
+so we may not want to shrink the items to very small
+we may want certain min-width 
+
+flex : 1 1 100px;
+this shorthand property is very handy for flexbox items
+we can set the flex-basis size for fles items
+and we can set whether the items can increase above flex-basis size
+decrease below the flex-basis size or both increase and decrease above and
+below the flex basis size
+whenever container increase or decrease
+
+
+
+
+
+
